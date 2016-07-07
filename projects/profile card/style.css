@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+
+body{
+    background: #66A5AD;
+}
+
+.container{
+    border-radius: 5px;
+    font-family: 'Slabo 27px', serif;
+    max-width: 65%;
+    margin: 1% auto;
+    padding:20px;
+    background: white;
+    text-align: center;
+}
+
+.card{
+	/*border: 5px dashed rgba(91,140,90, .7);*/
+	background: #F0EFEA;
+    margin:0 auto;
+	width: 35%;
+}
+
+.card_head{
+	color: rgba(91,140,90, .6);
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+
+.card_head h2{
+	background: #C0B2B5;
+	color: #D72C16;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:0;
+	padding: 15px;
+}
+
+.card_head span{
+	font-weight: 400;
+}
+
+.card_img_main img{
+	width: 100%;
+}
+
+.card_img_sbs {
+    height: 150px;
+	width: 50%;
+	float: left;
+    overflow: hidden;
+}
+
+.card_img_sbs img{
+	width: 100%;
+}
+
+.card_body{
+    color: rgba( 82, 65, 76, .6);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card_body p:first-child{
+    margin-top:160px;
+}
+
+.card_body p{
+    color: #D72C16;
+    padding-left: 5px;
+    padding-right: 5px;
+}

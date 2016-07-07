@@ -1,0 +1,388 @@
+/*
+*	External resources
+*/
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,300);
+@import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+@import url(https://fonts.googleapis.com/css?family=Share:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
+/*
+* 	Html elements override styles
+*/ 
+fieldset{
+	border: 0;
+}
+
+/*
+* 	Form styles
+*/
+
+/***********************
+	SIGN UP FORM
+************************/
+
+.container-signup{
+	width: 50%;
+	margin: 15px;
+	padding: 15px;
+}
+
+.signup-form{
+	background: #336B87;
+	border-radius: 5px;
+	font-family: 'Dosis', 'Helvetica', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0;
+	width: 60%;
+}
+
+.signup-form input {
+    float:right;
+    clear:both;
+}
+
+.signup-form fieldset{
+	margin: 5px auto;
+}
+
+.signup-form h2{
+	background: #733623;
+	border-bottom: 2px dashed white;
+	border-radius: 5px 5px 0 0;
+	color: white;
+	padding: 10px 5px;
+	text-align: center;
+}
+
+.signup-form label{
+	color: white;
+}
+
+.signup-form input{
+  border-radius: 7px;
+}
+
+.signup-form input[type=submit]{
+	background-color: #733623;
+	border-radius: 30px;
+	color:white;
+	cursor: pointer;
+  	display: inline-block;
+  	font-family: 'Dosis', 'Helvetica', sans-serif;
+  	font-size: 15px;
+  	font-weight: 600;
+  	padding: 5px;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+/***********************
+	SEARCH FORM
+************************/
+
+.container-search{
+	width: 75%;
+}
+
+.search-form{
+	background: #063852;
+	font-family: 'Jaldi', "Open Sans", sans-serif;
+	/*color: #1995AD;*/
+	color: #A1D6E2;
+}
+
+.search-form h2{
+	display: inline-block;
+	margin: 0;
+	margin-left: 10px;
+    text-align: center;
+}
+
+.search-form fieldset{
+	display: inline-block;
+	text-align: center;
+}
+
+.search-form select{
+    border: solid 5px #1995AD;
+    background: white;
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #1995AD;
+}
+
+.search-form input[type=text]{
+    border: solid 5px #1995AD;
+	height: 18px;
+	padding: 5px;
+	width: 250px;
+}
+
+.search-form input[type=submit]{
+    margin-left: -70px;
+    background: transparent;
+    border-top: 1px solid #1995AD;
+    border-left: 1px solid #1995AD;
+    border-bottom: 2px solid #1995AD;
+    border-right: 2px solid #1995AD;
+    cursor: pointer;
+    color: #1995AD;
+}
+
+/***********************
+	QUESTIONARIE
+************************/
+
+.container-questionarie{
+	width: 30%;
+}
+
+.questionarie form{
+	background: #F69454;
+	border-radius: 5px;
+	border: 3px solid #EE693F;
+	font-family: 'Dosis', 'Helvetica', sans-serif;
+	padding: 10px;
+}
+
+.questionarie h2{
+	color: #FCFDFE;
+	text-align: center;
+}
+
+.questionarie ul{
+	list-style: none;
+}
+
+.questionarie ul li{
+	color: #739F3D;
+	font-weight: 600;
+	margin: 5px 0;
+}
+
+.questionarie input[type=radio]{
+	display: none;
+}
+
+.questionarie label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+	font-size: 18px;
+}
+
+.questionarie label:before {
+    content: "";
+    display: inline-block;
+ 
+    width: 16px;
+    height: 16px;
+ 
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #aaa;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+.questionarie label:before {
+    border-radius: 8px;
+}
+
+.questionarie input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #EE693F;
+    font-size: 30px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.questionarie input[type=text]{
+    border: dashed 3px #EE693F;
+	height: 18px;
+	padding: 5px;
+	width: 150px;
+}
+
+/***********************
+	CUSTOM FORM
+************************/
+
+.container-custom{
+	width: 30%;
+}
+
+.custom{
+    background: #4D648D;
+    border-top: 5px solid #283655;
+    border-bottom: 5px solid #283655;
+    font-family: 'Share', cursive;
+    margin: 5px auto;
+    max-width: 400px;
+    padding: 12px;
+}
+
+.custom h1{
+    background: #283655;
+    padding: 20px 0;
+    font-size: 120%;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+.custom input[type=email],
+.custom input[type=password],
+.custom input[type=range]{
+	background: #4D648D;
+  	border: none;
+  	border-bottom: solid 2px #D0E1F9;
+	clear: both;
+	color: white;
+	float: right;
+  	padding: 10px;
+  	transition: border 0.3s;
+}
+
+.custom input[type=email]:focus,
+.custom input[type=password]:focus {
+  border: 2px dashed #283655;
+  color: white;
+}
+
+.custom input[type=submit]{
+    background: #D0E1F9;
+    border: 0;
+    color: #283655;
+    font-family: 'Share', cursive;
+    padding: 3%;
+    width: 100%;
+}
+
+/***********************
+	COLOR BUILDER FORM
+************************/
+
+.container-color{
+	width: 25%;
+}
+
+.color-builder{
+	border: 3px solid #537072;
+	border-radius: 15px;
+	background: #8E9B97;
+	font-family: 'Indie Flower', cursive;
+	padding: 10px;
+}
+
+.color-builder h3{
+	text-align: center;
+}
+
+.color-builder input{
+	float: right;
+}
+
+.color-builder input[type=range] {
+    -webkit-appearance: none;
+    background-color: silver;
+    width: 200px;
+    height:20px;
+}
+
+.color-builder #red{
+	background: red;
+}
+
+.color-builder #green{
+	background: green;
+}
+
+.color-builder #blue{
+	background: blue;
+}
+
+.color-builder input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #666;
+    opacity: 0.5;
+    width: 10px;
+    height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+/***********************
+	CREDIT CARD FORM
+************************/
+
+.container-credit{
+	width: 27%;
+}
+
+.credit-card{
+	background: #F4F4EF;
+	border:1px solid #20232A;
+	border-radius: 10px;
+	font-family: 'Libre Baskerville', serif;
+	padding: 0;
+}
+
+.credit-card h2{
+	background: #A01D26;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 1px solid #20232A;
+}
+
+.credit-card .info{
+	color: #ACBEBE;
+	font-size: 18px;
+	margin: 15px 0 5px 10px;
+}
+
+.credit-card .wrap{
+	margin: 5px 0 3px 50px;
+	padding: 3px 15px;
+}
+
+.credit-card .wrap h6{
+	margin: 3px;
+	font-size: 8px;
+	color: #A01D26;
+}
+
+.credit-card .wrap label,
+.credit-card .wrap input{
+	display: block;
+}
+
+.credit-card input[type=submit]{
+    border: 0;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    background: #A01D26;
+    color: white;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+    padding: 3%;
+    width: 100%;
+}
