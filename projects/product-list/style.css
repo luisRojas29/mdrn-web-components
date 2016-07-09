@@ -21,7 +21,7 @@ body{
 }
 
 .product-wrap{
-	border: 1px dotted #D55448;
+	border: 1px solid #D55448;
 	box-sizing: border-box;
 	float: left;
 	font-family: Helvetica Neue , Helvetica, Arial, sans-serif;
@@ -117,12 +117,51 @@ body{
 	overflow: hidden;
 }
 
-.cart-options div{
-	float: left;
+.cart-options .signup-login,
+.cart-options .sales,
+.cart-options .cart{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.cart-options .signup-login{
+    text-align: left;
+}
+
+.cart-options .signup-login a{
+	margin-left:20px;
+	text-decoration: none;
+	color: white;
+}
+
+.cart-options .signup-login a:hover{
+	color: #FFA557;
+}
+
+.cart-options .cart{
+	font-size: 22px;
+    text-align: right;
+	color: #FFA557;
+}
+
+.cart-options .cart span {
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.cart-options .sales ul{
+	padding:0;
 }
 
 .cart-options .sales ul li{
 	display: inline;
+}
+
+.cart-options .sales ul li a{
+	color: #D5DD48;;
+	font-size: 12px;
+	text-decoration: none;
 }
 
 /* Cart Aside */
