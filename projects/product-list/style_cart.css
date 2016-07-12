@@ -37,8 +37,11 @@ body{
     overflow: hidden;
 }
 
-.cart-menu button{
+.cart-menu a{
+	color: white;
+	display: inline-block;
 	margin: 10px 0;
+	text-decoration: none;
 }
 
 .button{

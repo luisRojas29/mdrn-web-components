@@ -108,10 +108,13 @@ body{
 	padding: 5px;
 }
 
+.button-add:hover{
+	background: #FFA557;
+}
+
 /* Cart Options */
 .cart-options{
 	background:  #896E69;
-	border:2px dashed white;
 	width: 100%;
 	clear: both;
 	overflow: hidden;
@@ -142,6 +145,10 @@ body{
 .cart-options .cart{
 	font-size: 22px;
     text-align: right;
+}
+
+.cart-options .cart a{
+	text-decoration: none;
 	color: #FFA557;
 }
 
@@ -188,6 +195,7 @@ body{
 }
 
 .cart-aside ul li a{
+	color: #D5DD48;
 	text-decoration: none;
 }
 

@@ -16,7 +16,7 @@ body{
 }
 
 .card{
-	/*border: 5px dashed rgba(91,140,90, .7);*/
+	border: 5px solid rgba(91,140,90, .7);
 	background: #F0EFEA;
     margin:0 auto;
 	width: 35%;
@@ -29,10 +29,10 @@ body{
 }
 
 .card_head h2{
-	background: #C0B2B5;
+	background: rgba(91,140,90, .7);
 	color: #D72C16;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom:0;
+    margin:0;
 	padding: 15px;
 }
 

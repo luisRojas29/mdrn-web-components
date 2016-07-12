@@ -386,3 +386,139 @@ fieldset{
     padding: 3%;
     width: 100%;
 }
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+.container-bill{
+	background: #D6C6B9;
+	border:5px solid #97B8C2;
+	border-radius: 3px;
+	padding: 10px;
+	width: 50%;
+}
+
+.container-bill .form-bill {
+	margin: 35px auto 50px auto;
+	font-family: 'Slabo 27px', serif;
+}
+
+.container-bill .form-bill h2{
+	text-align: center;
+}
+
+.container-bill .form-bill #billing,
+.container-bill .form-bill #shipping
+{
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+.container-bill .form-bill #billing input{
+	background: #D35C37;
+	border: solid 1px #BF9A77;
+}
+
+.container-bill .form-bill #billing input::-webkit-input-placeholder{
+	color: #BF9A77;
+	font-family: 'Slabo 27px', serif;
+}
+
+.container-bill .form-bill #shipping input{
+	background: #BF9A77;
+	border: solid 1px #D35C37;
+}
+
+.container-bill .form-bill #shipping input::-webkit-input-placeholder{
+	color: #D35C37;
+	font-family: 'Slabo 27px', serif;
+}
+
+.container-bill input[type=text] {
+	background: transparent;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	height: 40px;
+	padding: 7px;
+	width: 95%;
+}
+
+#submit {
+	background: #b3aca7;
+	border: solid 1px #b3aca7;
+	border-top: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	color: #666;
+	margin: -5px 0px 0px 0px;
+	padding: 0;
+	width: 470px;
+}
+
+/*
+* APPOINTMENT FORM
+*/
+
+.container-appointment{
+	width: 50%;
+}
+
+.appointment-form{
+	background: #5EA8A7;
+	border:5px solid #FF4447;
+	border-radius: 3px;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 10px;
+	width: 75%;
+}
+
+.container-appointment .appointment-form h2{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.container-appointment .appointment-form .left-side,
+.container-appointment .appointment-form .right-side{
+	display: inline;
+	width: 50%;
+}
+
+.container-appointment .appointment-form fieldset{
+	border: 0;
+	text-align: center;
+}
+
+.container-appointment .appointment-form .left-side fieldset,
+.container-appointment .appointment-form .right-side fieldset{
+	display: inline-block;
+}
+
+.container-appointment .appointment-form label{
+	color: #257985;
+	margin-right: 15px;
+	text-transform: uppercase;
+}
+
+.container-appointment .appointment-form input,
+.container-appointment .appointment-form textarea{
+	border-radius: 10px;
+	border: 2px solid #FF4447;
+	height: 30px;
+}
+
+.container-appointment .appointment-form textarea{
+	width: 70%;
+	height: 50px;
+}
+
+.container-appointment .appointment-form input[type=submit]{
+	background: white;
+	width: 100px;
+	float: right;
+}

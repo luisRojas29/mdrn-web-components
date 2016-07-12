@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign-Up/Login Form</title>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">    
+  </head>
+
+  <body>
+      
+      <div class="container-bill">
+                  
+        <form class="form-bill" action="#" method="post">
+          
+          <div id="billing">
+            <h2>Provide the billing information:</h2>
+            
+            <input id="first_name" type="text" required placeholder="FIRST NAME" />
+        
+            <input id="last_name" type="text" required placeholder="LAST NAME" />
+
+            <input id="address" type="text" required placeholder="ADDRESS" />
+
+            <input id="city" type="text" required placeholder="CITY" />
+
+            <input id="country" type="text" required placeholder="COUNTRY" />
+          </div>
+
+          <div id="shipping">        
+            <h2>Provide the shipping information:</h2>
+
+            <input id="first_name" type="text" required placeholder="FIRST NAME" />
+        
+            <input id="last_name" type="text" required placeholder="LAST NAME" />
+
+            <input id="address" type="text" required placeholder="ADDRESS" />
+
+            <input id="city" type="text" required placeholder="CITY" />
+
+            <input id="country" type="text" required placeholder="COUNTRY" />
+          </div>
+
+          <label for="warning">
+          	Check if you are sure that billing and shipping input data match.
+          </label>
+
+          <input type="checkbox">Yes, they do
+          <button type="submit" class="button button-block"/>Send Info</button>
+      
+        </form>
+
+      </div>
+  </body>
+</html>
